@@ -1,0 +1,45 @@
+body {
+    width: auto;
+    background-color: lightgray;
+    margin: 0;
+}
+div{
+    box-sizing: border-box;
+}
+header {
+    background: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+div.post{
+    background-color: white;
+    margin-top: 40px;
+}
+div.post img {
+    width: 100% ;
+}
+div.post .postHeader div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.post .postHeader div:last-child {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+div.post h2, div.post p{
+    font-family: Arial, Helvetica, sans-serify;
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 600px;
+    margin: auto;
+}
